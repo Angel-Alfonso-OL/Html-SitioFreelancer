@@ -4,8 +4,42 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
-
 }
+
+
+
+/* Barra de Navegacion */
+
+.navegacion-principal {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion-principal a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--negro);
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.contenedor {
+    width: 120rem;
+}
+
+
+
+
 
 html {
     font-size: 62.5%;
