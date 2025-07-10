@@ -36,13 +36,33 @@ h1, h2,h3{
     text-align: center;
 }
 
-.titulo {
-    text-align: center;
-    font-size: 3.8rem;
-}
-
 .titulo>span {
     font-size: 2rem;
+}
+
+
+.boton{
+    padding: 1rem 3rem;
+    background-color: var(--secundario);
+    text-decoration: none;
+    color: var(--blanco);
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .boton{
+        width: auto;
+    }
+}
+
+.boton:hover{
+
 }
 
 /* Barra de Navegacion */
