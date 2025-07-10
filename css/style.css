@@ -20,6 +20,7 @@ html {
 body {
     font-size: 16px;
     font-family: "Roboto";
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco));
 }
 h1{
     font-size: 3.8rem;
@@ -62,7 +63,7 @@ h1, h2,h3{
 }
 
 .boton:hover{
-
+    background-color: var(--primario);
 }
 
 /* Barra de Navegacion */
