@@ -137,3 +137,9 @@ h1, h2,h3{
     padding: 2rem;
     border-radius: 1rem;
 }
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
